@@ -30,13 +30,13 @@ ul.menu > li.last{
     border:none;
 }
 .bg1{
-    background-image: url(images/1.jpg);
+    background-image: url(../images/1.jpg);
 }
 .bg2{
-    background-image: url(images/2.jpg);
+    background-image: url(../images/2.jpg);
 }
 .bg3{
-    background-image: url(images/3.jpg);
+    background-image: url(../images/3.jpg);
 }
 ul.menu > li > a{
     float:left;
