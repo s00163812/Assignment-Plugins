@@ -82,7 +82,12 @@
   overflow: hidden;
   position: relative;
   -webkit-user-select: none;
-  -moz-user-select: none; }
+  -moz-user-select: none;
+  
+  margin-left:20.5em;
+  margin-right:20.5em;
+  margin-bottom:10em;
+   }
   .twentytwenty-container img {
     max-width: 100%;
     position: absolute;
@@ -102,12 +107,12 @@
 .twentytwenty-before-label {
   opacity: 0; }
   .twentytwenty-before-label:before {
-    content: "Before"; }
+    content: "Normal"; }
 
 .twentytwenty-after-label {
   opacity: 0; }
   .twentytwenty-after-label:before {
-    content: "After"; }
+    content: "HDR"; }
 
 .twentytwenty-horizontal .twentytwenty-before-label:before {
   left: 10px; }
