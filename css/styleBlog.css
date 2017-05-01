@@ -1,9 +1,13 @@
 /* Website template by freewebsitetemplates.com */
 /*------------------------- Layout styles ------------------------*/ 
-body{
+*{
+    margin:0;
+    padding:0;
+ }
+body{	
 	margin:0;
 	background:url(../images/bg-body.gif);
-	height:3000px;
+	height:10000px;
 }
 .page{
 	background:url(../images/bg-header.jpg) no-repeat center top;
@@ -74,10 +78,10 @@ body{
 
 /*------------------------- Body ------------------------*/ 
 .body{	
+	padding:40px;
 	background:url(../images/bg-content.gif) repeat-x #90C5E7;
 	background-color: #90C5E7;
 }
-
 /*------------------------- Footer ------------------------*/ 
 .footer{
 	width:auto;
@@ -184,4 +188,35 @@ body{
 }
 
 
+h1{
+	font-family: 'RokkittRegular';
+    src: url('../fonts/rokkitt-regular-webfont.eot');
+    src: url('../fonts/rokkitt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rokkitt-regular-webfont.woff') format('woff'),
+         url('../fonts/rokkitt-regular-webfont.ttf') format('truetype'),
+         url('../fonts/rokkitt-regular-webfont.svg#RokkittRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+	text-align:center;
+	font-size:36px;
+	color:#024D77;
+	text-decoration:underline;
+	padding: 20px;
+}
 
+h2{
+	font-family: 'RokkittRegular';
+    src: url('../fonts/rokkitt-regular-webfont.eot');
+    src: url('../fonts/rokkitt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/rokkitt-regular-webfont.woff') format('woff'),
+         url('../fonts/rokkitt-regular-webfont.ttf') format('truetype'),
+         url('../fonts/rokkitt-regular-webfont.svg#RokkittRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+	text-align:center;
+	font-size:24px;
+	color:#024D77;
+	text-decoration:underline;
+	padding: 20px;
+	margin: 15px;
+}
